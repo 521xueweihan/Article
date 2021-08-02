@@ -31,8 +31,8 @@ github 项目地址：[Rubick](https://github.com/clouDr-f2e/rubick)
 
 其次，我们在推广给测试、UI 同学使用的时候，发现他们其实并不关注前面的页面调试、性能测评等功能，可能只是用到其中某一项，所以整个项目对他们来说就显得很臃肿。直到有一天，我在掘金上看到这样一个沸点：
 
+![image](https://user-images.githubusercontent.com/21073039/127862987-9bf3009e-88d0-4798-8cef-448af710f722.png)
 
-![image.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/966854586d0a47e7aa17e751058ba275~tplv-k3u1fbpfcp-watermark.image)
 
 下面有个评了让我产生了兴趣和灵感：
 
@@ -119,7 +119,7 @@ onSearch ({ commit }, paylpad) {
       {
         name: '新建rubick开发插件',
         value: 'new-plugin',
-        icon: 'https://static.91jkys.com/activity/img/b37ff555c748489f88f3adac15b76f18.png',
+        icon: 'https://xxx.com/img.png',
         desc: '新建rubick开发插件',
         click: (router) => {
           commit('commonUpdate', {
@@ -140,7 +140,7 @@ onSearch ({ commit }, paylpad) {
         name: '复制路径',
         desc: '复制路径',
         value: 'copy-path',
-        icon: 'https://static.91jkys.com/activity/img/ac0d4df0247345b9a84c8cd7ea3dd696.png',
+        icon: 'https://xxx.com/img.png',
         click: () => {
           clipboard.writeText(fileUrl);
           commit('commonUpdate', {
